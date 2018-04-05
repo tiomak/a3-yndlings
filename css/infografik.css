@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*
+div {
+    outline: 2px dotted yellow;
+}
+*/
+
+/***** SCENE ****/
+
+#scene {
+    width: 560px;
+    height: 650px;
+    position: relative;
+    overflow: hidden;
+    background-color: #D5EDFA;
+}
+
+/***** info containers ****/
+
+#left {
+    /*    background-image: url("left.svg");
+    */
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 30vw;
+    height: 57vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+
+#mid {
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 30vw;
+    height: 57vw;
+    position: absolute;
+    top: 0;
+    left: 34%;
+}
+
+#right {
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 30vw;
+    height: 57vw;
+    position: absolute;
+    top: 0;
+    left: 68%;
+}
+
+#container {
+    position: absolute;
+    bottom: 0%;
+    left: 20%;
+}
+
+/***** SHOW IMAGE ****/
+
+.show {}
+
+/***** BEATRICE ANIM ****/
+
+#bea_sprite {
+    background-image: url(bea-walkcyckle-1244x300.png);
+    /*
+    background-repeat: no-repeat;
+    background-size: 400%;
+*/
+    width: 48vw;
+    height: 43vw;
+
+}
+
+
+/*
+.bea_kigger {
+    animation-name: bea_kigger_kf;
+    animation-duration: 8s;
+    animation-timing-function: steps(4);
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes bea_kigger_kf {
+    0% {
+        background-position: 100% 0;
+    }
+    100% {
+        background-position: -300% 0;
+    }
+}
+*/
