@@ -13,7 +13,14 @@
     <link href="css/plugins/plugins.css" rel="stylesheet">
     <link href="linearicons/fonts.css" rel="stylesheet">
     <link href="css/style-saas-landing.css" rel="stylesheet">
-    <link href="css/infografik.css" rel="stylesheet">
+    <link href="infografik.css" rel="stylesheet">
+    <style>
+        @media (min-width: 992px) {
+            .feature-img.pos-right {
+                right: 15%;
+            }
+        }
+    </style>
 </head>
 
 <body data-spy="scroll" data-target="#landingkit-navbar" data-offset="75">
@@ -91,7 +98,7 @@
 
                     </div>
                     <div class='col-lg-6 ml-auto pb40 wow fadeInUp' data-wow-delay=".1s">
-                        <iframe width="520" height="415" src="https://www.youtube.com/embed/5f0mtuJuKiM">
+                        <iframe width="520" height="415" src="https://www.youtube.com/embed/WQn6ahcNEKE">
 </iframe>
 
                     </div>
@@ -100,14 +107,30 @@
         </div>
 
         <!--feature-img-->
-        <div id="infographics" class="bg-primary-dark feature-img-section pt90 pb90">
-            <div class="no-padding feature-img pos-right wow zoomInDown" data-wow-delay=".1s">
-                <img src="info.png" width="400px" height="500px" alt='' class='img-fluid center-img'>
 
+        <div id="infographics" class="bg-primary-dark feature-img-section pt90 pb90 pb90">
+            <div class="pb90 feature-img pos-right wow zoomInDown" data-wow-delay=".1s">
+                <!--                                <img src="info.png" width="400px" height="500px" alt='' class='img-fluid center-img'>-->
+                <div id="scene">
+                    <div id="left">
+                        <img class="show" src="left.svg">
+                    </div>
+                    <div id="mid">
+                        <img class="show" src="mid.svg">
+                    </div>
+                    <div id="right">
+                        <img class="show" src="right-01.svg">
+                    </div>
+                    <div id="container">
+                        <div id="bea_sprite" class="bea_kigger"></div>
+                    </div>
+                </div>
+                <!--scene-->
             </div>
+
             <div class="container">
                 <div class="row">
-                    <div class="col-lg-5">
+                    <div class="col-lg-4">
                         <h6 class='section-subtitle text-white'>Undgå hverdagens bekymringer med Yndlings forsikring</h6>
                         <h2 class='text-white'>Infographic</h2>
                         <p class="text-white-gray">
@@ -135,7 +158,9 @@
                     </div>
 
                 </div>
+
             </div>
+        </div>
         </div>
 
         <!--feature-img-->
@@ -171,7 +196,7 @@
 
                         <h4>Mobil</h4>
                         <p>
-                            Når du vælger at forsikre din cykel med YndlingsTing, er den dækket med en "allrisk" forsikring.<br><br>Du får udbetalt erstatningsværdien, hvis den bliver stjålet, og forsikringen dækker også, hvis den bliver smadret ved et uheld.
+                            Når du vælger at forsikre din mobil med YndlingsTing, er den dækket med en "allrisk" forsikring.<br><br>Du får udbetalt erstatningsværdien, hvis den bliver stjålet, og forsikringen dækker også, hvis den bliver smadret ved et uheld.
                         </p>
                     </div>
                     <!--col-->
@@ -181,7 +206,7 @@
 
                         <h4>Tablet</h4>
                         <p>
-                            Når du vælger at forsikre din cykel med YndlingsTing, er den dækket med en "allrisk" forsikring.<br><br>Du får udbetalt erstatningsværdien, hvis den bliver stjålet, og forsikringen dækker også, hvis den bliver smadret ved et uheld.
+                            Når du vælger at forsikre din tablet med YndlingsTing, er den dækket med en "allrisk" forsikring.<br><br>Du får udbetalt erstatningsværdien, hvis den bliver stjålet, og forsikringen dækker også, hvis den bliver smadret ved et uheld.
                         </p>
                     </div>
                     <!--col-->
@@ -197,29 +222,29 @@
                 <h3 class="text-center section-title mb70">Video Galleri</h3>
                 <div class="row" style="width: 90vw;">
                     <div class='col-lg-3 col-md-6 mb40 text-center feature-icon wow fadeInUp' data-wow-delay='.1s'>
-                        <iframe width="100%" height="auto" src="https://www.youtube.com/embed/9CNtelpL9HQ">
+                        <iframe width="100%" height="auto" src="https://www.youtube.com/embed/zmIAZvoMjII">
 
 </iframe>
 
                         <h4>Youtube</h4>
-                        <a href="https://www.youtube.com/watch?v=9CNtelpL9HQ" class="btn btn-white-outline modal-video my-3"><i class="icon-play-circle"></i>Fuld skærm</a>
+                        <a href="https://www.youtube.com/watch?v=zmIAZvoMjII" class="btn btn-white-outline modal-video my-3"><i class="icon-play-circle"></i>Fuld skærm</a>
 
                     </div>
                     <div class='col-lg-3 col-md-6 mb40 text-center feature-icon wow fadeInUp' data-wow-delay='.1s'>
-                        <iframe width="100%" height="auto" src="https://www.youtube.com/embed/5f0mtuJuKiM">
+                        <iframe width="100%" height="auto" src="https://www.youtube.com/embed/WQn6ahcNEKE">
 </iframe>
 
                         <h4>Explainer</h4>
-                        <a href="https://www.youtube.com/watch?v=5f0mtuJuKiM" class="btn btn-white-outline modal-video my-3"><i class="icon-play-circle"></i>Fuld skærm</a>
+                        <a href="https://www.youtube.com/watch?v=WQn6ahcNEKE" class="btn btn-white-outline modal-video my-3"><i class="icon-play-circle"></i>Fuld skærm</a>
 
                     </div>
 
                     <div class='col-lg-3 col-md-6 mb40 text-center feature-icon wow fadeInUp' data-wow-delay='.1s'>
-                        <iframe width="100%" height="auto" src="https://www.youtube.com/embed/7kywYCUmPX0">
+                        <iframe width="100%" height="auto" src="https://www.youtube.com/embed/d9gsZvr_2f0">
 </iframe>
 
                         <h4>Facebook</h4>
-                        <a href="https://www.youtube.com/watch?v=7kywYCUmPX0" class="btn btn-white-outline modal-video my-3"><i class="icon-play-circle"></i>Fuld skærm</a>
+                        <a href="https://www.youtube.com/watch?v=d9gsZvr_2f0" class="btn btn-white-outline modal-video my-3"><i class="icon-play-circle"></i>Fuld skærm</a>
 
 
                     </div>
@@ -277,9 +302,9 @@
     <script type="text/javascript" src="js/saas.products.custom.js"></script>
     <script>
         let homePos = "0%";
-        let leftPos = "-100%";
-        let rightPos = "-300%";
-        let centerPos = "-200%";
+        let leftPos = "33.3333%";
+        let centerPos = "66.66%";
+        let rightPos = "100%";
         let pos;
         /****************************/
 
@@ -334,6 +359,7 @@
             elm.querySelector(".show").style.opacity = "0";
         }
     </script>
+
 
 </body>
 
